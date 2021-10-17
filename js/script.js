@@ -14,7 +14,7 @@ window.onload = () => {
 		let dataP = getDocById('data-positif');
 		let dataM = getDocById("data-meninggal");
 		let dataD = getDocById("data-dirawat");
-
+  
 		dataS.innerHTML = sembuh.toLocaleString();
 		dataP.innerHTML = positif.toLocaleString();
 		dataM.innerHTML = meninggal.toLocaleString();
